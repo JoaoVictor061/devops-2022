@@ -1,0 +1,9 @@
+// npm init -y
+
+//npm install -D jest
+
+// npm run test
+
+//      "scripts": {
+    "test": "jest --watchAll"
+  },
