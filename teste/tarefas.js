@@ -63,7 +63,7 @@ function listar() {
 
 function listarPorCategoria(categoria) {
     const tarefas = data.filter(tarefas => tarefas.categoria === categoria)
-    if(!tarefas){
+     if(tarefas.length === 0){
         return {
             erro: true,
             mensagem: 'Categoria não encontrada!'
